@@ -1,0 +1,54 @@
+.FullScreen{
+    padding: 25px;
+    font-weight: bolder;
+}
+.MediunScreen{
+    display: none;
+}
+.SmallScreen{
+    display: none;
+}
+
+
+@media screen and (min-width: 725px) and (max-width: 1180px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediunScreen{
+        display: block;
+        padding: 25px;
+        font-weight: 700;
+    }
+    .SmallScreen{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 725px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediunScreen{
+        display: none;
+    }
+    .SmallScreen{
+        display: block;
+        padding: 20px;
+        font-weight: 700;
+    }
+    .SSHover{
+        --b: 0.25em;   /* the thickness of the line */
+            /*--c: #31b9d7; /* the color */
+            
+            color: rgb(0, 0, 0);
+            padding-block: var(--b);
+            background: linear-gradient(red 0 0) 1% var(--_p,100%)/var(--_p,0%) var(--b,0%) no-repeat;
+            position: relative;
+            transition: background-size .3s ;
+    }
+    .SSHover:hover {
+      --_p: 100%;
+    }
+    
+}
