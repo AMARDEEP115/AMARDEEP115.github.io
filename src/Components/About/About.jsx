@@ -2,7 +2,9 @@ import "./About.css";
 
 function About(){
     return <div>
-        <h1>ABOUT</h1>
+        <div className="FullScreen" style={{height:"500px"}}></div>
+        <div className="MediumScreen"></div>
+        <div className="SmallScreen"></div>
     </div>
 }
 

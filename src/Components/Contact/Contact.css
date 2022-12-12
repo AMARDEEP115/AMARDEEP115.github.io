@@ -16,7 +16,7 @@
     
     color: var(--c);
     border: transparent #ffffff00;
-    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    border-width: var(b) var(b) var(--_s) var(--_s);
     background:
       conic-gradient(at left var(--d)  bottom var(--d),
         #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
