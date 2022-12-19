@@ -8,7 +8,7 @@ import "./Contact.css";
 function Contact(){
     return <div id="Contact" data-aos="fade-right">
         <div className="FullScreen">
-            <h1 style={{textAlign:"center",fontSize:"40px"}}>Contact Me</h1>
+            <h1 style={{textAlign:"center",fontSize:"40px",color:"yellowgreen"}}>Contact Me</h1>
             <div style={{width:"340px",margin:"auto",lineHeight:"60px",paddingTop:"20px"}}>
                 <Link href="https://linkedin.com/in/amar-deep-8359aa246/" _hover={{textDecor:"none"}}><Flex className="hover" pl="35px" pr="20px" pb="25px" alignItems="center">
                     <GrLinkedin size="40px"/>
@@ -34,7 +34,7 @@ function Contact(){
             <Text textAlign="center" mt="35px">Designed & Built by <span style={{color:"blue"}}>Amar Deep</span> © 2022</Text>
         </div>
         <div className="MediumScreen">
-            <h1 style={{textAlign:"center",fontSize:"30px",fontWeight:"600"}}>Contact Me</h1>
+            <h1 style={{textAlign:"center",fontSize:"30px",fontWeight:"600",color:"yellowgreen"}}>Contact Me</h1>
             <div style={{width:"290px",margin:"auto",lineHeight:"60px",paddingTop:"20px"}}>
                 <Link href="https://linkedin.com/in/amar-deep-8359aa246/" _hover={{textDecor:"none"}}><Flex className="hover" pl="50px" pr="35px" pb="25px" alignItems="center">
                     <GrLinkedin size="30px"/>
@@ -60,7 +60,7 @@ function Contact(){
             <Text textAlign="center" mt="35px">Designed & Built by <span style={{color:"blue"}}>Amar Deep</span> © 2022</Text>
         </div>
         <div className="SmallScreen">
-            <h1 style={{textAlign:"center",fontSize:"25px"}}>Contact Me</h1>
+            <h1 style={{textAlign:"center",fontSize:"25px",color:"yellowgreen"}}>Contact Me</h1>
             <div style={{width:"230px",margin:"auto",lineHeight:"60px",paddingTop:"20px"}}>
                 <Link href="https://linkedin.com/in/amar-deep-8359aa246/" _hover={{textDecor:"none"}}><Flex className="hover" pl="55px" pr="40px" pb="25px" alignItems="center">
                     <GrLinkedin size="20px"/>

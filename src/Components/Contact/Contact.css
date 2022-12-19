@@ -8,7 +8,7 @@
     display: none;
 }
 .hover {
-    --c: #000000; /* the color */
+    --c: yellowgreen; /* the color */
     --b: .1em;    /* border length*/
     --d: 20px;    /* the cube depth */
     

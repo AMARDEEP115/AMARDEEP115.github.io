@@ -6,14 +6,15 @@
     flex-wrap: wrap;
     gap: 50px;
     padding-top: 55px;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 78%;
+    margin: auto;
 }
 .Ficons{
-    border: 2px solid black;
-    width: 160px;
-    height: 160px;
+    border: 2px solid yellowgreen;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    color: yellowgreen;
 }
 #MediumScreen{
     display: none;
@@ -24,6 +25,7 @@
 .Sls{
     text-align: center;
     font-size: 50px;
+    color: yellowgreen;
 }
 @media screen and (min-width: 725px) and (max-width: 1180px) {
     #FullScreen{
@@ -32,16 +34,17 @@
     #MediumScreen{
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 50px;
         padding-top: 55px;
-        padding-left: 70px;
-        padding-right: 70px;
+        width: 78%;
+        margin: auto;
     }
     .Ficons{
-        border: 2px solid black;
-        width: 110px;
-        height: 110px;
+        border: 2px solid yellowgreen;
+        width: 80px;
+        height: 80px;
         border-radius: 10px;
+        color: yellowgreen;
     }
     #SmallScreen{
         display: none;
@@ -57,17 +60,18 @@
         display: none;
     }
     .Ficons{
-        border: 2px solid black;
-        width: 90px;
-        height: 90px;
+        border: 2px solid yellowgreen;
+        width: 60px;
+        height: 60px;
         border-radius: 10px;
+        color: yellowgreen;
     }
     #SmallScreen{
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 50px;
         padding-top: 35px;
-        padding-left: 50px;
-        padding-right: 50px;
+        width: 78%;
+        margin: auto;
     }
 }

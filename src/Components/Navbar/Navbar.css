@@ -34,10 +34,10 @@
     #MediunScreen{
         display: block;
         font-weight: 500;
-        height: 75px;
+        
     }
     #MediunScreen p{
-        font-size: large;
+        font-size:medium;
     }
     #SmallScreen{
         display: none;
@@ -103,7 +103,7 @@
       --_p: 100%;
     }
     #AboutName{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

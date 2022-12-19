@@ -8,10 +8,70 @@
     display: block;
 }
 
-@media screen and (min-width: 725px) and (max-width: 1180px) {
-
+.gitStats{
+        display: flex;
+        gap: 25px;
+        width: 79.5%;
+        margin: auto;
+        padding-top: 60px;
+        margin-bottom: 50px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 725px) {
-    
+@media screen and (min-width: 1181px) and (max-width: 1203px) {
+    .gitStats{
+        padding-bottom: 70px;
+    }
+    .gitStats img{
+        width: 450px;
+    }
 }
+
+@media screen and (min-width: 989px) and (max-width: 1181px) {
+    .gitStats{
+        padding-bottom: 50px;
+    }
+    .gitStats img{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 989px) {
+    .gitStats{
+        padding-bottom: 50px;
+    }
+    .gitStats img{
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 789px) and (max-width: 951px) {
+    .gitStats{
+        padding-bottom: 30px;
+    }
+    .gitStats img{
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 615px) and (max-width: 789px) {
+    .gitStats{
+        padding-bottom: 30px;
+        flex-direction: column;
+        width: 49%;
+    }
+    .gitStats img{
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 615px) {
+    .gitStats{
+        padding-bottom: 30px;
+        flex-direction: column;
+        width: 49%;
+    }
+    .gitStats img{
+        width: 450px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 406px) {}

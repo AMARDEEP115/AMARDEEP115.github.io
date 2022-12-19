@@ -13,7 +13,7 @@ function GitStats(){
         grade0: "#ecd9fc"
       };
     return <div id="GitStats" data-aos="fade-right" style={{margin:"auto"}}>
-        <h1 style={{fontSize:"50px",textAlign:"center",marginBottom:"25px"}}>Git stats</h1>
+        <h1 style={{fontSize:"50px",textAlign:"center",marginBottom:"25px",color:"yellowgreen"}}>Git stats</h1>
         <div className="FullScreen" style={{height:"500px"}}>
             <div className={colourTheme} style={{width:"86%",margin:"auto"}}>
                 <h2>
@@ -22,21 +22,33 @@ function GitStats(){
                 {/* blockSize={15} blockMargin={5} */}
                 <GitHubCalendar username="AMARDEEP115" year={new Date().getFullYear()} blockSize={15} blockMargin={5}/>
             </div>
+            <div className="gitStats">
+                <img src="https://github-readme-stats.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en" alt="githubreadme" />
+                <img src="https://streak-stats.demolab.com/?user=AMARDEEP115" alt="streak-starks" />
+            </div>
         </div>
-        <div className="MediumScreen" style={{height:"300px"}}>
+        <div className="MediumScreen">
             <div className={colourTheme} style={{width:"86%",margin:"auto"}}>
                 <h2>
                     Days I <span className="different"> Code</span>
                 </h2>
                 <GitHubCalendar username="AMARDEEP115" year={new Date().getFullYear()} />
             </div>
+            <div className="gitStats">
+                <img src="https://github-readme-stats.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en" alt="githubreadme" />
+                <img src="https://streak-stats.demolab.com/?user=AMARDEEP115" alt="streak-starks" />
+            </div>
         </div>
-        <div className="SmallScreen" style={{height:"200px",padding:"10px"}}>
+        <div className="SmallScreen">
             <div className={colourTheme} style={{width:"86%",margin:"auto"}}>
                 <h2>
                     Days I <span className="different"> Code</span>
                 </h2>
                 <GitHubCalendar username="AMARDEEP115" year={new Date().getFullYear()} />
+            </div>
+            <div className="gitStats">
+                <img src="https://github-readme-stats.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en" alt="githubreadme" />
+                <img src="https://streak-stats.demolab.com/?user=AMARDEEP115" alt="streak-starks" />
             </div>
         </div>
     </div>
