@@ -6,27 +6,43 @@ function Projects(){
         <div className="FullScreen">
             <div style={{display:"flex",flexWrap:"wrap",gap:"25px",width:"83%",margin:"auto"}}>
                 <div className="zoom" style={{width:"500px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>MYNTRA.COM (CLONE)</p>
                     <img style={{width:"500px"}} src="https://user-images.githubusercontent.com/105987614/208336161-9f2cefda-5dd1-4211-a393-141d41c8dceb.png" alt="myntra"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned website of myntra.com. Myntra.com is India's largest e-commerce store for fashion and lifestyle products</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI | Cyclic.sh API | REACT REDUX</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"3px solid yellowgreen",color:"yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://myntraclone-prabhatpoddar.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"3px solid yellowgreen",color:"yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/AMARDEEP115/direct-cast-6709"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"3px solid yellowgreen",color:"yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://myntraclone-prabhatpoddar.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"3px solid yellowgreen",color:"yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/AMARDEEP115/direct-cast-6709" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"500px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>TRAVELOCITY.COM (CLONE)</p>
                     <img style={{width:"500px"}} src="https://user-images.githubusercontent.com/105987614/207080600-0f945121-fc63-4c69-9984-8d494cef4364.jpg" alt="travelocity"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://adtravels.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/AMARDEEP115/noble-meat-2962"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://adtravels.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/AMARDEEP115/noble-meat-2962" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"500px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}} >
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>DECCANHERELED.COM (CLONE)</p>
                     <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/101391604/192854244-1da570d5-9c89-4f16-94e3-400c8aa96c02.png" alt="deccanhereled"/>
-                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of deccanhereled.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://enchanting-muffin-9f8441.netlify.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/Sakil9051/WEB-101-Project"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://enchanting-muffin-9f8441.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/Sakil9051/WEB-101-Project" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                    </div>
+                </div>
+                <div className="zoom" style={{width:"500px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}} >
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>CRICBUZZ.COM (CLONE)</p>
+                    <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/105987614/208469512-9283e863-8e93-4512-b13c-4d3b852e5948.png" alt="crickbuzz"/>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of cricbuzz.com This is a webisite for cricket news from world this project was an individual project which was completed in 5 days using techstack HTML JavaScript CSS</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
+                    <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://dainty-raindrop-6528d8.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"3px solid yellowgreen",width:"100px",height:"40px",borderRadius:"10px",paddingTop:"4px"}} href="https://github.com/AMARDEEP115/obscene-clam-8417" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
             </div>
@@ -34,27 +50,43 @@ function Projects(){
         <div className="MediumScreen">
         <div style={{display:"flex",flexWrap:"wrap",gap:"25px",width:"69%",margin:"auto"}}>
                 <div className="zoom" style={{width:"350px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>MYNTRA.COM (CLONE)</p>
                     <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/105987614/208336161-9f2cefda-5dd1-4211-a393-141d41c8dceb.png" alt="myntra"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned website of myntra.com. Myntra.com is India's largest e-commerce store for fashion and lifestyle products</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI | Cyclic.sh API | REACT REDUX</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://myntraclone-prabhatpoddar.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/AMARDEEP115/direct-cast-6709"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://myntraclone-prabhatpoddar.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/AMARDEEP115/direct-cast-6709" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"350px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>TRAVELOCITY.COM (CLONE)</p>
                     <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/105987614/207080600-0f945121-fc63-4c69-9984-8d494cef4364.jpg" alt="travelocity"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://adtravels.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/AMARDEEP115/noble-meat-2962"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://adtravels.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/AMARDEEP115/noble-meat-2962" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"350px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>DECCANHERELED.COM (CLONE)</p>
                     <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/101391604/192854244-1da570d5-9c89-4f16-94e3-400c8aa96c02.png" alt="deccanhereled"/>
-                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of deccanhereled.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://enchanting-muffin-9f8441.netlify.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/Sakil9051/WEB-101-Project"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://enchanting-muffin-9f8441.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/Sakil9051/WEB-101-Project" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                    </div>
+                </div>
+                <div className="zoom" style={{width:"350px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>CRICBUZZ.COM (CLONE)</p>
+                    <img style={{width:"300px"}} src="https://user-images.githubusercontent.com/105987614/208469512-9283e863-8e93-4512-b13c-4d3b852e5948.png" alt="crickbuzz"/>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
+                    <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://dainty-raindrop-6528d8.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"2px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px",paddingTop:"1px"}} href="https://github.com/AMARDEEP115/obscene-clam-8417" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
             </div>
@@ -62,27 +94,43 @@ function Projects(){
         <div className="SmallScreen">
             <div style={{display:"flex",flexWrap:"wrap",gap:"25px",marginLeft:"17%"}}>
                 <div className="zoom" style={{width:"250px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>MYNTRA.COM (CLONE)</p>
                     <img style={{width:"200px"}} src="https://user-images.githubusercontent.com/105987614/208336161-9f2cefda-5dd1-4211-a393-141d41c8dceb.png" alt="myntra"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"500",marginLeft:"-10px"}}>This is a cloned website of myntra.com. Myntra.com is India's largest e-commerce store for fashion and lifestyle products</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI | Cyclic.sh API | REACT REDUX</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://myntraclone-prabhatpoddar.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/AMARDEEP115/direct-cast-6709"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://myntraclone-prabhatpoddar.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/AMARDEEP115/direct-cast-6709"target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"250px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>TRAVELOCITY.COM (CLONE)</p>
                     <img style={{width:"200px"}} src="https://user-images.githubusercontent.com/105987614/207080600-0f945121-fc63-4c69-9984-8d494cef4364.jpg" alt="travelocity"/>
                     <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"500",marginLeft:"-10px"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>REACT | REDUX | REACT-ROUTER-DOM | CHAKRA-UI</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://adtravels.vercel.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/AMARDEEP115/noble-meat-2962"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://adtravels.vercel.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/AMARDEEP115/noble-meat-2962" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
                 <div className="zoom" style={{width:"250px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>DECCANHERELED.COM (CLONE)</p>
                     <img style={{width:"200px"}} src="https://user-images.githubusercontent.com/101391604/192854244-1da570d5-9c89-4f16-94e3-400c8aa96c02.png" alt="deccanhereled"/>
-                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"500",marginLeft:"-10px"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"500",marginLeft:"-10px"}}>This is a cloned webiste of deccanhereled.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
                     <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://enchanting-muffin-9f8441.netlify.app/"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
-                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/Sakil9051/WEB-101-Project"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://enchanting-muffin-9f8441.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/Sakil9051/WEB-101-Project" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
+                    </div>
+                </div>
+                <div className="zoom" style={{width:"250px",border:"2px solid yellowgreen",borderRadius:"10px",padding:"10px"}}>
+                    <p style={{marginBottom:"20px",fontWeight:"700",textAlign:"center",color:"yellowgreen"}}>CRICBUZZ.COM (CLONE)</p>
+                    <img style={{width:"200px"}} src="https://user-images.githubusercontent.com/105987614/208469512-9283e863-8e93-4512-b13c-4d3b852e5948.png" alt="crickbuzz"/>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"500",marginLeft:"-10px"}}>This is a cloned webiste of travelocity.com. This is a webisite for travelers to find the various pathways  to travel. This was an individual project complelted in 5 days with using tech stacks REACT JS and Chakra UI</p>
+                    <p style={{marginTop:"20px",marginBottom:"20px",fontWeight:"700"}}>TECH STACKS : <span style={{color:"yellowgreen"}}>HTML | CSS | JS</span></p>
+                    <div style={{display:"flex",gap:"20px",margin:"auto",width:"220px"}}>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://dainty-raindrop-6528d8.netlify.app/" target="_blank"><button style={{paddingLeft:"30%",fontSize:"18px",fontWeight:"700"}}>Live</button></a>
+                        <a style={{border:"1px solid yellowgreen",width:"100px",height:"30px",borderRadius:"10px"}} href="https://github.com/AMARDEEP115/obscene-clam-8417" target="_blank"><button style={{paddingLeft:"23%",fontSize:"18px",fontWeight:"700"}}>Github</button></a>
                     </div>
                 </div>
             </div>
