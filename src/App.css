@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+#Home{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

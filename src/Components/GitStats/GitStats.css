@@ -1,3 +1,13 @@
+.FullScreen{
+    display: block;
+}
+.MediumScreen{
+    display: block;
+}
+.SmallScreen{
+    display: block;
+}
+
 @media screen and (min-width: 725px) and (max-width: 1180px) {
 
 }

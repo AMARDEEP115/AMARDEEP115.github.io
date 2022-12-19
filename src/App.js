@@ -1,9 +1,9 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
-// import GitStats from './Components/GitStats/GitStats';
-// import Projects from './Components/Projects/Projects';
-// import Skills from './Components/Skills/Skills';
+import GitStats from './Components/GitStats/GitStats';
+import Projects from './Components/Projects/Projects';
+import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <div>
       <Navbar />
       <About />
-      {/* <Skills />
+      <Skills />
       <Projects />
-      <GitStats /> */}
+      <GitStats />
       <Contact />
     </div>
   );

@@ -6,7 +6,7 @@ import {IoCall} from "react-icons/io5";
 import "./Contact.css";
 
 function Contact(){
-    return <div>
+    return <div id="Contact" data-aos="fade-right">
         <div className="FullScreen">
             <h1 style={{textAlign:"center",fontSize:"40px"}}>Contact Me</h1>
             <div style={{width:"340px",margin:"auto",lineHeight:"60px",paddingTop:"20px"}}>

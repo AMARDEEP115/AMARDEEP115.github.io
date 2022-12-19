@@ -1,7 +1,134 @@
-@media screen and (min-width: 725px) and (max-width: 1180px) {
-
+#About{
+    border: 1px solid black;
 }
 
-@media screen and (min-width: 0px) and (max-width: 725px) {
+.img{
+    animation-name: example;
+    animation-duration: 2s;
+    margin-left: 150px;
+    height: 350px;
+}
+
+/* @keyframes example {
+    from {margin-left: -300px;}
+    to {margin-left: 150px;}
+} */
+/* @keyframes example {
+    from {margin-left: 50px;}
+    to {margin-left: -300px;}
+} */
+
+.FullScreen{
+    display: block;
+}
+.MediumScreen{
+    display: none;
+}
+.SmallScreen{
+    display: none;
+}
+
+@media screen and (min-width: 790px) and (max-width: 1100px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediumScreen{
+        display: block;
+        font-size: 18px;
+    }
+    .SmallScreen{
+        display: none;
+    }
+    .img{
+        margin-left: 130px;
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 724px) and (max-width: 789px){
+    .FullScreen{
+        display: none;
+    }
+    .MediumScreen{
+        display: block;
+        text-align: center;
+    }
+    .MediumScreen>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .SmallScreen{
+        display: none;
+    }
+    .img{
+        margin-left: 42%;
+        height: 250px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 595px) and (max-width: 724px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediumScreen{
+        display: none;
+    }
+    .SmallScreen{
+        display: block;
+    }
+    .img{
+        margin-left: 12%;
+        height: 200px;
+        width: 170px;
+    }
     
+}
+
+@media screen and (min-width: 406px) and (max-width: 594px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediumScreen{
+        display: none;
+    }
+    .SmallScreen{
+        display: block;
+        text-align: center;
+    }
+    .SmallScreen p{
+        margin-left: 20%;
+    }
+    .SmallScreen>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        margin-left: 42%;
+        height: 250px;
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 406px) {
+    .FullScreen{
+        display: none;
+    }
+    .MediumScreen{
+        display: none;
+    }
+    .SmallScreen{
+        display: block;
+        text-align: center;
+    }
+    .SmallScreen>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        margin-left: 42%;
+        height: 250px;
+        width: 200px;
+    }
 }
