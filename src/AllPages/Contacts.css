@@ -6,6 +6,7 @@
     margin-top: 10vh;
     text-align: center;
     font-weight: 500;
+    font-size: 15px;
 }
 #Contact>h1{
     font-size: 5vw;
@@ -140,6 +141,9 @@
     #RightContact>div{
         width: 50%;
     }
+    #Contact>p{
+        font-size: 12px;
+    }
 }
 @media screen and (min-width:420px) and (max-width:505px){
     #RightContact>div{
@@ -147,6 +151,9 @@
     }
     #RightContact>form{
         width: 70%;
+    }
+    #Contact>p{
+        font-size: 12px;
     }
 }
 @media screen and (min-width:318px) and (max-width:420px){
@@ -156,6 +163,9 @@
     #RightContact>form{
         width: 80%;
     }
+    #Contact>p{
+        font-size: 10px;
+    }
 }
 @media screen and (min-width:0px) and (max-width:318px){
     #RightContact>div{
@@ -163,5 +173,8 @@
     }
     #RightContact>form{
         width: 90%;
+    }
+    #Contact>p{
+        font-size: 10px;
     }
 }
