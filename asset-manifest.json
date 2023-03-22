@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0fbbb2e.css",
+    "main.js": "/static/js/main.0949bf17.js",
+    "static/js/787.3b722d45.chunk.js": "/static/js/787.3b722d45.chunk.js",
+    "static/media/Untitled.png": "/static/media/Untitled.e206bea1685d6a0c2a30.png",
+    "static/media/github.gif": "/static/media/github.33956a4d2363b13a1b5c.gif",
+    "static/media/ReactIcon.png": "/static/media/ReactIcon.81ed438b18e24116794d.png",
+    "static/media/Chakraui.png": "/static/media/Chakraui.e4cb472ccaabf22affba.png",
+    "static/media/AboutMePic.png": "/static/media/AboutMePic.2875bd9f6f822092b88c.png",
+    "static/media/MongoDB.png": "/static/media/MongoDB.d35b22aaa96738a743a1.png",
+    "static/media/NodeJSIcon.png": "/static/media/NodeJSIcon.e03b9c9f4e311614f532.png",
+    "static/media/MongooseJS.png": "/static/media/MongooseJS.d8de917aa4c3bd06e8dc.png",
+    "static/media/contactus.png": "/static/media/contactus.74187a2f3297c8774b16.png",
+    "static/media/ReactRouterDomIcon.png": "/static/media/ReactRouterDomIcon.6156d1352befbc238f16.png",
+    "static/media/Cyclic.png": "/static/media/Cyclic.70ea0663b5669909d720.png",
+    "static/media/CSS.png": "/static/media/CSS.1f5b0b71967c96eb5b7c.png",
+    "static/media/cypressIcon.png": "/static/media/cypressIcon.c548fb908238332a07e3.png",
+    "static/media/Netlify.png": "/static/media/Netlify.38a235f62bb18bea5e18.png",
+    "static/media/Materialui.png": "/static/media/Materialui.5b2d8a0a309d9f7d47c1.png",
+    "static/media/ReduxIcon.png": "/static/media/ReduxIcon.b3b939c66aecf7d53967.png",
+    "static/media/StyledComponents.png": "/static/media/StyledComponents.9d7ded91bd74a11ba03b.png",
+    "static/media/HTML.png": "/static/media/HTML.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/JESTicon.png": "/static/media/JESTicon.5ea6b1d53e25d86f8d43.png",
+    "static/media/JavaScript.png": "/static/media/JavaScript.3dfb665e058d08c99f28.png",
+    "static/media/TypeScriptIcon.png": "/static/media/TypeScriptIcon.48fea135279dd670e7f7.png",
+    "static/media/ExpressjsIcon.png": "/static/media/ExpressjsIcon.e3d4f9e5c8b469e45838.png",
+    "index.html": "/index.html",
+    "main.e0fbbb2e.css.map": "/static/css/main.e0fbbb2e.css.map",
+    "main.0949bf17.js.map": "/static/js/main.0949bf17.js.map",
+    "787.3b722d45.chunk.js.map": "/static/js/787.3b722d45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0fbbb2e.css",
+    "static/js/main.0949bf17.js"
+  ]
+}
