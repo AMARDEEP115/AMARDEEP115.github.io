@@ -1,0 +1,82 @@
+#Stats{
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+}
+#Stats>h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+#Stats>h1>span{
+    color: #385ab5;
+}
+#Stats>div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7vh;
+}
+#Stats>div>img{
+    border-radius: 30%;
+    width: 40%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+    0%   {top:0px;}
+    25%  {top:7px;}
+    50%  {top:15px;}
+    75%  {top:7px;}
+    100% {top:0px;}
+}
+
+#Stats>div>div{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Stats>div>div>img{
+    width: 100%;
+}
+#Stats>div>article{
+    width: auto;
+    margin: auto;
+    margin-top: 6vh;
+}
+
+@media screen and (min-width:1024px) and (max-width:1245px) {
+    #Stats>div>div>img{
+        width: 100%;
+        height: 180px;
+    }
+}
+@media screen and (min-width:976px) and (max-width:1024px) {
+    #Stats>div>div>img{
+        width: 100%;
+        height: 160px;
+        
+    }
+}
+@media screen and (min-width:769px) and (max-width:976px) {
+    #Stats>div>div>img{
+        width: 100%;
+        height: 150px;
+        
+    }
+}
+@media screen and (min-width:250px) and (max-width:769px) {
+    #Stats>div>img{
+        width: 60%;
+    }
+    #Stats>div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

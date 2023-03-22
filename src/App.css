@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#DarkMode{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin-top: -40px;
+}
+#DarkMode{
+  position: fixed;
+  margin-top: 3vh;
+  z-index: 1000;
+}
+#DarkMode>div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #385ab5;
+  border-radius: 50% 0px 0px 50%;
+  width: 40px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#siteBody{
+  margin-top: 1vh;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+
+
+#goToTop{
+  position: fixed;
+  margin-top: 87vh;
+  z-index: 2000;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #385ab5; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #385ab5; 
+}

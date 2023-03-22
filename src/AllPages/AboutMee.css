@@ -1,0 +1,159 @@
+#AboutMe{
+    padding-top: 10vh;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+#AboutMe>h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+#AboutMe>h1>span{
+    color: #385ab5;
+}
+#imgage {
+    width: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%   {top:0px;}
+    25%  {top:7px;}
+    50%  {top:15px;}
+    75%  {top:7px;}
+    100% {top:0px;}
+}
+
+#AboutmEbody{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    padding-top: 6vh;
+}
+#AboutmEbodyLeft{
+    width: 40%;
+}
+#AboutmEbodyRight{
+    width: 55%;
+}
+#AboutmEbodyRight li{
+    color: #385ab5;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+@media screen and (min-width:1215px) and (max-width:1440px) {
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 40%;
+    }
+    #AboutmEbodyRight{
+        width: 55%;
+    }
+    #AboutmEbodyRight li{
+        text-align: left;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width:1023px) and (max-width:1215px) {
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 35%;
+    }
+    #AboutmEbodyRight{
+        width: 55%;
+    }
+    #AboutmEbodyRight li{
+        font-weight: 500;
+        font-size: 1.3rem;
+        text-align: left;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1025px) {
+    #AboutMe{
+        height: 100%;
+        padding-bottom: 6vh;
+    }
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 35%;
+    }
+    #AboutmEbodyRight{
+        width: 55%;
+    }
+    #AboutmEbodyRight li{
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+    #AboutMe{
+        height: 100%;
+        padding-bottom: 6vh;
+    }
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 50%;
+    }
+    #AboutmEbodyRight{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #AboutmEbodyRight li{
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width:337px) and (max-width:425px) {
+    #AboutMe{
+        height: 100%;
+        padding-bottom: 6vh;
+    }
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+    #AboutmEbodyRight{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #AboutmEbodyRight li{
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 30px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:337px) {
+    #AboutMe{
+        height: 100%;
+        padding-bottom: 6vh;
+    }
+    #AboutmEbodyLeft{
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+    #AboutmEbodyRight{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #AboutmEbodyRight li{
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-align: left;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,129 @@
+#Home{
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+#RightContent{
+    width: 40%;
+}
+#RightContent>img{
+    width: 380px;
+    margin: auto;
+    margin-top: -10px;
+    transition: width 2s;
+}
+#RightContent>img:hover{
+    width: 450px;
+}
+#LeftContent{
+    width: 60%;
+    padding-left: 10%;
+}
+#LeftContent>button{
+    border: 3px solid #385ab5;
+    background-color: #385ab5;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    width: 25%;
+    color: white;
+}
+#LeftContent>button:hover{
+    border: 3px solid #385ab5;
+    background-color: transparent;
+    color: #385ab5;
+}
+#LeftContent>h1:first-child{
+    display: flex;
+    flex-direction: column;
+}
+#LeftContent>h1{
+    color: #385ab5;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+#LeftContent>h1:first-child>span{
+    font-size: 5rem;
+    margin-top: -15px;
+}
+#LeftContent>h1+h1{
+    margin-top: -15px;
+}
+@media screen and (min-width:300px) and (max-width:515px) {
+    #LeftContent>button{
+        background-color: #385ab5;
+        padding: 2%;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        width: 35%;
+    }
+}
+@media screen and (min-width:490px) and (max-width:770px){
+    #Home{
+        width: 100%;
+    }
+    #Home>div{
+        width: 100%;
+    }
+    #LeftContent{
+        margin-top: -150px;
+    }
+    #LeftContent>h1{
+        font-size: 2.5rem;
+        margin: auto;
+    }
+    #RightContent>img{
+        width: 320px;
+        display: block;
+        margin: auto;
+        margin-top: -70px;
+        transition: width 2s;
+    }
+    #RightContent>img:hover{
+        width: 380px;
+    }
+    #LeftContent>h1:first-child>span{
+        font-size: 3rem;
+    }
+    #LeftContent>button{
+        width: 20%;
+    }
+}
+/* 480 375 */
+@media screen and (min-width:0px) and (max-width:490px){
+    #Home{
+        width: 100%;
+    }
+    #LeftContent{
+        margin-top: -150px;
+        width: 90%;
+    }
+    #LeftContent>h1{
+        font-size: 2rem;
+    }
+    #RightContent{
+        margin-top: -20px;
+        padding: 20px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #RightContent>img{
+        width: 250px;
+        display: block;
+        margin: auto;
+        transition: width 2s;
+    }
+    #RightContent>img:hover{
+        width: 300px;
+    }
+    #LeftContent>h1:first-child>span{
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+}

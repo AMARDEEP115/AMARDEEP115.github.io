@@ -1,0 +1,98 @@
+#Navb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #385ab5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1000;
+}
+#Name>h2{
+    font-size: 150%;
+}
+
+#FullNav{
+    display: block;
+    width: 60%;
+}
+#FullNav>nav{
+    display: flex;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+#FullNav>nav>p{
+    /* border: 1px solid red; */
+    width: 30%;
+    font-size: larger;
+    font-weight: 700;
+}
+#FullNav>nav>a{
+    /* border: 1px solid red; */
+    width: 30%;
+    font-size: larger;
+    font-weight: 700;
+}
+#FullNav>nav>a:hover{
+    zoom: 110%;
+    color: white;
+    background-color: #35519e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#FullNav>nav>p:hover{
+    zoom: 110%;
+    color: white;
+    background-color: #35519e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#SmallNav{
+    display: none;
+}
+#DrawerBody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#DrawerBody>a{
+    color: #385ab5;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: large;
+}
+#DrawerBody>a:hover{
+    background-color: #385ab5;
+    color: white;
+}
+#DrawerBody>p{
+    color: #385ab5;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+#DrawerBody>p:hover{
+    background-color: #385ab5;
+    color: white;
+}
+@media screen and (min-width:770px) and (max-width:1030px) {
+    #FullNav{
+        display: block;
+        width:80%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:770px) {
+    #Navb{
+        padding: 10px 0px 10px 20px;
+    }
+    #FullNav{
+        display: none;
+    }
+    #SmallNav{
+        display: block;
+        padding-right: 5px;
+    }
+}

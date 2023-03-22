@@ -1,0 +1,167 @@
+#Contact{
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+#Contact>p{
+    margin-top: 10vh;
+    text-align: center;
+    font-weight: 500;
+}
+#Contact>h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+#Contact>h1>span{
+    color: #385ab5;
+}
+#Contact>div{
+    display: flex;
+    margin-top: 6vh;
+}
+#Contact>div>div{
+    width: 50%;
+}
+#profileLinks{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#profileLinks a{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    font-weight: 600;
+}
+#profileLinks a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#profileLinks>div{
+    display: flex;
+    gap: 20px;
+}
+#RightContact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#RightContact>div{
+    width: 70%;
+    margin: auto;
+}
+#RightContact>form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+}
+#RightContact>form>input{
+    border: 3px solid #385ab5;
+    color: #385ab5;
+    background-color: transparent;
+    border-radius: 7px;
+    height: 40px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+#RightContact>form>input::placeholder{
+    color: #7a95e0;
+}
+#RightContact>form>textarea{
+    border: 3px solid #385ab5;
+    background-color: transparent;
+    color: #385ab5;
+    border-radius: 7px;
+    padding-left: 20px;
+    height: 130px;
+    font-weight: 700;
+}
+#RightContact>form>textarea::placeholder{
+    color: #7a95e0;
+}
+#RightContact>form>button{
+    border: 3px solid #385ab5;
+    border-radius: 7px;
+    background-color: #385ab5;
+    color: white;
+    height: 40px;
+    font-weight: 700;
+}
+#RightContact>form>button:hover{
+    background-color: #6782cb;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#LeftContact>img{
+    margin-left: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+    0%   {top:0px;}
+    25%  {top:7px;}
+    50%  {top:15px;}
+    75%  {top:7px;}
+    100% {top:0px;}
+}
+
+@media screen and (min-width:0px) and (max-width:940px) {
+    #Contact>div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #Contact>div>div{
+        width: 100%;
+    }
+    #Contact>div>div>img{
+        width: 50%;
+        margin: auto;
+    }
+    #RightContact>div{
+        width: 30%;
+    }
+    #RightContact>form{
+        width: 50%;
+    }
+}
+@media screen and (min-width:505px) and (max-width:849px){
+    #RightContact>div{
+        width: 50%;
+    }
+}
+@media screen and (min-width:420px) and (max-width:505px){
+    #RightContact>div{
+        width: 60%;
+    }
+    #RightContact>form{
+        width: 70%;
+    }
+}
+@media screen and (min-width:318px) and (max-width:420px){
+    #RightContact>div{
+        width: 80%;
+    }
+    #RightContact>form{
+        width: 80%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:318px){
+    #RightContact>div{
+        width: 90%;
+    }
+    #RightContact>form{
+        width: 90%;
+    }
+}
