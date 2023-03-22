@@ -73,9 +73,14 @@
     #SkilssDisplay{
         width: 90%;
         justify-content: space-around;
+        gap: 10px;
     }
     #SkilssDisplay>div{
-        width: 115px;
+        width: 110px;
+    }
+    #SkilssDisplay>div>img{
+        width: 105px;
+        height: 75px;
     }
 }
 @media screen and (min-width:0px) and (max-width:320px) {
@@ -84,7 +89,11 @@
         justify-content: space-around;
     }
     #SkilssDisplay>div{
-        width: 115px;
+        width: 105px;
+    }
+    #SkilssDisplay>div>img{
+        width: 105px;
+        height: 75px;
     }
 }
 
