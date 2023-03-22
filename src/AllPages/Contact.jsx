@@ -38,8 +38,8 @@ const Contact=({dark})=>{
             <div id="RightContact" data-aos="zoom-in">
                 <div id="profileLinks">
                     <div>
-                        <a id="Linkedin" style={{backgroundColor: dark?"#9BDAF3":"#00A0DC",color:dark?"black":'white'}}><AiFillLinkedin color={dark?"black":"#385ab5"}/>LinkedIn</a>
-                        <a id="Github" style={{backgroundColor: dark?"#373B41":"black",color:"white"}}><AiFillGithub color='white'/>GitHub</a>
+                        <a id="Linkedin" href="https://www.linkedin.com/in/amar-deep-8359aa246/" style={{backgroundColor: dark?"#9BDAF3":"#00A0DC",color:dark?"black":'white'}} target="_blank"><AiFillLinkedin color={dark?"black":"#385ab5"}/>LinkedIn</a>
+                        <a id="Github" href="https://github.com/AMARDEEP115" style={{backgroundColor: dark?"#373B41":"black",color:"white"}} target="_blank"><AiFillGithub color='white'/>GitHub</a>
                     </div>
                     <a id="MayGmail" style={{backgroundColor: dark?"#FEB2B2":"red",color:dark?"black":'white'}} href="mailto:amar1998deep@gmail.com"><AiOutlineMail color={dark?"black":'white'}/>amar1998deep@gmail.com</a>
                     <a style={{color:"white",backgroundColor:"#969595"}}><FiSmartphone color="white"/>6388898362</a>
