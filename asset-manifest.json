@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9007cda8.css",
-    "main.js": "/static/js/main.28c96b9f.js",
+    "main.js": "/static/js/main.f4ae6cec.js",
     "static/js/787.3b722d45.chunk.js": "/static/js/787.3b722d45.chunk.js",
     "static/media/Untitled.png": "/static/media/Untitled.e206bea1685d6a0c2a30.png",
     "static/media/github.gif": "/static/media/github.33956a4d2363b13a1b5c.gif",
@@ -10,6 +10,7 @@
     "static/media/AboutMePic.png": "/static/media/AboutMePic.2875bd9f6f822092b88c.png",
     "static/media/MongoDB.png": "/static/media/MongoDB.d35b22aaa96738a743a1.png",
     "static/media/NodeJSIcon.png": "/static/media/NodeJSIcon.e03b9c9f4e311614f532.png",
+    "static/media/SocketIoIcon.png": "/static/media/SocketIoIcon.426370b8575c856bfc47.png",
     "static/media/MongooseJS.png": "/static/media/MongooseJS.d8de917aa4c3bd06e8dc.png",
     "static/media/contactus.png": "/static/media/contactus.74187a2f3297c8774b16.png",
     "static/media/ReactRouterDomIcon.png": "/static/media/ReactRouterDomIcon.6156d1352befbc238f16.png",
@@ -27,11 +28,11 @@
     "static/media/ExpressjsIcon.png": "/static/media/ExpressjsIcon.e3d4f9e5c8b469e45838.png",
     "index.html": "/index.html",
     "main.9007cda8.css.map": "/static/css/main.9007cda8.css.map",
-    "main.28c96b9f.js.map": "/static/js/main.28c96b9f.js.map",
+    "main.f4ae6cec.js.map": "/static/js/main.f4ae6cec.js.map",
     "787.3b722d45.chunk.js.map": "/static/js/787.3b722d45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9007cda8.css",
-    "static/js/main.28c96b9f.js"
+    "static/js/main.f4ae6cec.js"
   ]
 }
