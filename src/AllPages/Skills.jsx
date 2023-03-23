@@ -22,6 +22,7 @@ import Cyclic from "../assets/Cyclic.png";
 import Netlify from "../assets/Netlify.png";
 import StyledComponents from "../assets/StyledComponents.png";
 import ReactRouterDomIcon from "../assets/ReactRouterDomIcon.png";
+import SocketIoIcon from "../assets/SocketIoIcon.png";
 import "./Skillss.css";
 
 const Skills=({dark})=>{
@@ -49,6 +50,7 @@ const Skills=({dark})=>{
     {pic:Netlify,name:"Netlify"},
     {pic:StyledComponents,name:"Style Component"},
     {pic:ReactRouterDomIcon,name:"React Router Dom"},
+    {pic:SocketIoIcon,name:"Socket io"},
     ];
     const frontEnd=[
     {pic:HTML,name:"HTML"},
@@ -68,6 +70,7 @@ const Skills=({dark})=>{
     {pic:Netlify,name:"Netlify"},
     {pic:StyledComponents,name:"Styled Component"},
     {pic:ReactRouterDomIcon,name:"React Router Dom"},
+    {pic:SocketIoIcon,name:"Socket io"},
     ];
 
     const backendAll=[
@@ -77,6 +80,7 @@ const Skills=({dark})=>{
     {pic:MongoDB,name:"Mongo DB"},
     {pic:Cyclic,name:"Cyclic"},
     {pic:VercelIcon,name:"Vercel"},
+    {pic:SocketIoIcon,name:"Socket io"},
     ];
     const handleSkillsView=()=>{
         document.getElementById("Three").style.boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px";
