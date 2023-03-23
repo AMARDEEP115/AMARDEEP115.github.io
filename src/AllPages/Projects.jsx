@@ -37,6 +37,22 @@ const Projects=({dark})=>{
         live:"https://enchanting-muffin-9f8441.netlify.app/",
         github:"https://github.com/Sakil9051/WEB-101-Project"
     },
+    {
+        image:["https://user-images.githubusercontent.com/105987614/227150702-d48f60f3-41ba-48ca-b5e5-5341ff908d79.png","https://user-images.githubusercontent.com/105987614/227150828-a5da5b39-91d5-4cae-97ad-0ddf4ccf46d4.png","https://user-images.githubusercontent.com/105987614/227151246-20d306d4-cdcc-4d52-97ae-f1155e400a04.png"],
+        name:"YoutTube Clone",
+        description:"This project is a clone of YouTube website, were you can watch trending videos and can search any kind of videos, using google youtube api in this.",
+        techStack:"HTML | CSS | JavaScript",
+        live:"https://dulcet-chaja-b6c81e.netlify.app/",
+        github:"https://github.com/AMARDEEP115/static-youtube-clone"
+    },
+    {
+        image:["https://user-images.githubusercontent.com/105987614/227171043-99d5c73c-3cad-451f-be66-9c6088114296.png","https://user-images.githubusercontent.com/105987614/227170918-e497c2e3-357e-4066-91d1-d2ec0e2857d0.png","https://user-images.githubusercontent.com/105987614/227170824-b5b080ef-7797-44a4-b08c-ed153daf5898.png"],
+        name:"Weather App",
+        description:"This project is about building a web application to show a weather forecast using weather API from external services Open weather map. Here you will be able to search for a specific location in the world and also it will automatically detect your current location in the beginning (for that you need to allow location) and will display all the important weather details.",
+        techStack:"HTML | CSS | JavaScript",
+        live:"https://tourmaline-smakager-2d1f20.netlify.app/",
+        github:"https://github.com/AMARDEEP115/find-weather-app"
+    }
     ];
     const MernProjects=[{
         image:["https://user-images.githubusercontent.com/105987614/213974110-dbcb7cc8-a57a-434c-a4cc-d47a4032020a.png","https://user-images.githubusercontent.com/105987614/213974279-5d90cfc4-7a65-4035-abba-e2d302f9d81d.png","https://user-images.githubusercontent.com/105987614/213974437-dac44daa-5770-4127-93b4-85ac50ea3f6e.png","https://user-images.githubusercontent.com/105987614/213974692-9b081939-2720-4ec9-990a-0b588cd6fc80.png"],
@@ -72,6 +88,22 @@ const Projects=({dark})=>{
         live:"https://enchanting-muffin-9f8441.netlify.app/",
         github:"https://github.com/Sakil9051/WEB-101-Project"
     },
+    {
+        image:["https://user-images.githubusercontent.com/105987614/227150702-d48f60f3-41ba-48ca-b5e5-5341ff908d79.png","https://user-images.githubusercontent.com/105987614/227150828-a5da5b39-91d5-4cae-97ad-0ddf4ccf46d4.png","https://user-images.githubusercontent.com/105987614/227151246-20d306d4-cdcc-4d52-97ae-f1155e400a04.png"],
+        name:"YoutTube Clone",
+        description:"This project is a clone of YouTube website, using google youtube api in this. Here you can watch trending videos and can search any kind of videos.",
+        techStack:"HTML | CSS | JavaScript",
+        live:"https://dulcet-chaja-b6c81e.netlify.app/",
+        github:"https://github.com/AMARDEEP115/static-youtube-clone"
+    },
+    {
+        image:["https://user-images.githubusercontent.com/105987614/227171043-99d5c73c-3cad-451f-be66-9c6088114296.png","https://user-images.githubusercontent.com/105987614/227170918-e497c2e3-357e-4066-91d1-d2ec0e2857d0.png","https://user-images.githubusercontent.com/105987614/227170824-b5b080ef-7797-44a4-b08c-ed153daf5898.png"],
+        name:"Weather App",
+        description:"This project is about building a web application to show a weather forecast using weather API from external services Open weather map. Here you will be able to search for a specific location in the world and also it will automatically detect your current location in the beginning (for that you need to allow location) and will display all the important weather details.",
+        techStack:"HTML | CSS | JavaScript",
+        live:"https://tourmaline-smakager-2d1f20.netlify.app/",
+        github:"https://github.com/AMARDEEP115/find-weather-app"
+    }
     ];
     const handleProjectsView=()=>{
         document.getElementById("Four").style.boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px";
