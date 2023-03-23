@@ -42,7 +42,7 @@ const Contact=({dark})=>{
                         <a id="Github" href="https://github.com/AMARDEEP115" style={{backgroundColor: dark?"#373B41":"black",color:"white"}} target="_blank"><AiFillGithub color='white' onClick={()=>console.log("clicked")}/>GitHub</a>
                     </div>
                     <a id="MayGmail" style={{backgroundColor: dark?"#FEB2B2":"red",color:dark?"black":'white'}} href="mailto:amar1998deep@gmail.com"><AiOutlineMail color={dark?"black":'white'}/>amar1998deep@gmail.com</a>
-                    <a style={{color:"white",backgroundColor:"#969595"}} href="tel:6388898362"><FiSmartphone color="white"/>6388898362</a>
+                    <a style={{color:"white",backgroundColor:"#969595"}} href="tel:+916388898362"><FiSmartphone color="white"/>6388898362</a>
                 </div>
                 <form onSubmit={handleSubmit} action="https://formspree.io/f/mknavbvv" method="POST">
                     <input id="name" type="text" placeholder='Full Name' name="name"/>
