@@ -1,6 +1,7 @@
 #Contact{
     padding-top: 10vh;
     padding-bottom: 3vh;
+    height: fit-content;
 }
 #Contact>p{
     margin-top: 10vh;

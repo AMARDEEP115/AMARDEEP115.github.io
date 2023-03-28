@@ -3,7 +3,7 @@ import github from "../assets/github.gif";
 import "./GitStatss.css";
 
 const GitStats=({dark})=>{
-    return <div id="Stats">
+    return <div id="Stats" style={{backgroundImage:dark?"url(https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif)":""}}>
         <h1 style={{color:dark?"white":"black"}}><span>Git</span> Stats</h1>
         <div>
             {/* https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif */}

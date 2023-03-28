@@ -37,20 +37,20 @@ const Skills=({dark})=>{
     {pic:ReduxIcon,name:"REDUX"},
     {pic:cypressIcon,name:"Cypress"},
     {pic:TypeScriptIcon,name:"TypeScript"},
-    {pic:npmIcon,name:"NPM"},
     {pic:Git,name:"GIT"},
     {pic:postman,name:"Postman"},
     {pic:Materialui,name:"Material UI"},
     {pic:VercelIcon,name:"Vercel"},
     {pic:NodeJSIcon,name:"Node JS"},
     {pic:ExpressjsIcon,name:"Express"},
-    {pic:MongooseJS,name:"Mongoose"},
-    {pic:MongoDB,name:"Mongo DB"},
     {pic:Cyclic,name:"Cyclic"},
     {pic:Netlify,name:"Netlify"},
     {pic:StyledComponents,name:"Style Component"},
     {pic:ReactRouterDomIcon,name:"React Router Dom"},
     {pic:SocketIoIcon,name:"Socket io"},
+    {pic:MongoDB,name:"Mongo DB"},
+    {pic:MongooseJS,name:"Mongoose"},
+    {pic:npmIcon,name:"NPM"},
     ];
     const frontEnd=[
     {pic:HTML,name:"HTML"},
@@ -58,7 +58,6 @@ const Skills=({dark})=>{
     {pic:JavaScript,name:"JavaScript"},
     {pic:ReactIcon,name:"REACT"},
     {pic:ReduxIcon,name:"REDUX"},
-    {pic:npmIcon,name:"NPM"},
     {pic:TypeScriptIcon,name:"TypeScript"},
     {pic:JESTicon,name:"JEST"},
     {pic:cypressIcon,name:"Cypress"},
@@ -68,9 +67,10 @@ const Skills=({dark})=>{
     {pic:postman,name:"Postman"},
     {pic:VercelIcon,name:"Vercel"},
     {pic:Netlify,name:"Netlify"},
+    {pic:SocketIoIcon,name:"Socket io"},
     {pic:StyledComponents,name:"Styled Component"},
     {pic:ReactRouterDomIcon,name:"React Router Dom"},
-    {pic:SocketIoIcon,name:"Socket io"},
+    {pic:npmIcon,name:"NPM"},
     ];
 
     const backendAll=[
@@ -92,7 +92,7 @@ const Skills=({dark})=>{
         document.getElementById("Three").style.borderRadius="";
         document.getElementById("Three").style.zoom="0%";
     }
-    return <div id="Skills" onMouseEnter={handleSkillsView} onMouseLeave={handleSkillsViewOver}>
+    return <div id="Skills" onMouseEnter={handleSkillsView} onMouseLeave={handleSkillsViewOver} style={{backgroundImage:dark?"url(https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif)":""}}>
         <h1 style={{color:dark?"white":"black"}}>My Technical <span>Skills</span> and <span>Tools</span></h1>
         <div id="viewBtn">
             <Button bgColor={skillView==="All"?"#385ab5":"transparent"} border="3px solid #385ab5" color={dark?(skillView==="All"?"black":"#385ab5"):(skillView==="All"?"white":"#385ab5")} onClick={()=>{
