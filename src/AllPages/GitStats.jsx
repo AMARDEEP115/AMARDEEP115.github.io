@@ -9,8 +9,8 @@ const GitStats=({dark})=>{
             {/* https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif */}
             <img data-aos="zoom-in" src={github} style={{backgroundColor:dark?"#475396":"transparent"}} alt="githubgif"/>
             <div>
-                {!dark && <img data-aos="zoom-in" src="https://github-readme-stats.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en" alt="left" />}
-                {dark && <img data-aos="zoom-in" src="https://github-readme-stats.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en&theme=dark" alt="left" />}
+                {!dark && <img data-aos="zoom-in" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en" alt="left" />}
+                {dark && <img data-aos="zoom-in" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AMARDEEP115&show_icons=true&locale=en&theme=dark" alt="left" />}
                 {!dark && <img data-aos="zoom-in" src="https://streak-stats.demolab.com/?user=AMARDEEP115" alt="right" />}
                 {dark && <img data-aos="zoom-in" src="https://streak-stats.demolab.com/?user=AMARDEEP115&theme=dark" alt="right" />}
             </div>

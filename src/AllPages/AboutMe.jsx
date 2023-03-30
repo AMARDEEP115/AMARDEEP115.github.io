@@ -20,7 +20,7 @@ const AboutMe=({dark})=>{
             <div id="AboutmEbodyRight" data-aos="zoom-in">
                 <ul>
                     <li>Hello, My name is Amar Deep. I am enthusiastic and passionate developer, & enjoy creating things that live on the internet.</li>
-                    <li>Capability of managing clean, elegant, and efficient code.</li>
+                    <li>Capability of managing clean, elegant, and efficient code with creativity to improve the overall performance and user experience of web applications.</li>
                     <li>Skilled in collaboration, decision-making, and DS & Algo.</li>
                     <li>Always ready to learn something new and deal with challenges and tasks.</li>
                     <li>I completed a Full-Stack Development course from Masai School.</li>
