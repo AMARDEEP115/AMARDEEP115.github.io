@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.e9a00c1d.css",
-    "main.js": "/static/js/main.e64238f2.js",
+    "main.js": "/static/js/main.dc0954cf.js",
     "static/js/787.3b722d45.chunk.js": "/static/js/787.3b722d45.chunk.js",
     "static/media/Untitled.png": "/static/media/Untitled.e206bea1685d6a0c2a30.png",
+    "static/media/FlipkartHome.png": "/static/media/FlipkartHome.08dba551824ffa048817.png",
     "static/media/github.gif": "/static/media/github.33956a4d2363b13a1b5c.gif",
     "static/media/ReactIcon.png": "/static/media/ReactIcon.81ed438b18e24116794d.png",
     "static/media/Chakraui.png": "/static/media/Chakraui.e4cb472ccaabf22affba.png",
@@ -28,11 +29,11 @@
     "static/media/ExpressjsIcon.png": "/static/media/ExpressjsIcon.e3d4f9e5c8b469e45838.png",
     "index.html": "/index.html",
     "main.e9a00c1d.css.map": "/static/css/main.e9a00c1d.css.map",
-    "main.e64238f2.js.map": "/static/js/main.e64238f2.js.map",
+    "main.dc0954cf.js.map": "/static/js/main.dc0954cf.js.map",
     "787.3b722d45.chunk.js.map": "/static/js/787.3b722d45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9a00c1d.css",
-    "static/js/main.e64238f2.js"
+    "static/js/main.dc0954cf.js"
   ]
 }
